@@ -12,6 +12,7 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.instructions
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patches.all.misc.PatchCategory
 import app.morphe.patches.reddit.customclients.AppCompatibility
 import app.morphe.patches.reddit.customclients.ExtensionPatches
 import com.android.tools.smali.dexlib2.Opcode
@@ -46,6 +47,7 @@ val fixCommentVideoLinksPatch = bytecodePatch(
 ) {
     dependsOn(ExtensionPatches.RIF)
     compatibleWith(*AppCompatibility.RedditIsFun)
+    category(PatchCategory.MEDIA)
 
     execute {
         // The loader's result handler: (ThreadMediaRedditVideo) -> void, in the same class as

@@ -130,9 +130,14 @@ public final class Settings {
         return true;
     }
 
-    /** Master switch for YouTube captions; the per-shape getters below all follow it. */
+    /**
+     * Master switch for YouTube captions; the per-shape getters below all follow it.
+     * Off, matching the upstream ReVanced default (its three caption checkboxes default
+     * to unchecked). With no settings UI in this port it cannot be turned on; a future
+     * preferences screen would back this with SharedPreferences.
+     */
     public static boolean captions() {
-        return true;
+        return false;
     }
 
     /** Captions for landscape videos (and videos whose shape is unknown). */

@@ -391,6 +391,33 @@
     },
     {
       "name": "Disable ads",
+      "description": "Removes and does not render all ads.",
+      "default": true,
+      "category": "Ads & tracking",
+      "compatiblePackages": [
+        {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable ads",
       "description": null,
       "default": true,
       "category": null,
@@ -522,6 +549,51 @@
           "targets": [
             {
               "version": "1.14.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix /s/ links",
+      "description": "Opens Reddit share links (/s/) by resolving them to the post they point to.",
+      "default": true,
+      "category": "Links",
+      "compatiblePackages": [
+        {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.andrewshu.android.redditdonation",
+          "name": "rif is fun golden platinum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1115,6 +1187,51 @@
       "category": "Media",
       "compatiblePackages": [
         {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.andrewshu.android.redditdonation",
+          "name": "rif is fun golden platinum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix Redgifs API",
+      "description": "Fetches a fresh Redgifs API token so Redgifs videos load.",
+      "default": true,
+      "category": "Media",
+      "compatiblePackages": [
+        {
           "packageName": "com.laurencedawson.reddit_sync",
           "name": "Sync for Reddit",
           "description": null,
@@ -1161,6 +1278,186 @@
           "targets": [
             {
               "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix YouTube videos",
+      "description": "Fixes the built-in YouTube player.",
+      "default": true,
+      "category": "Media",
+      "compatiblePackages": [
+        {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.andrewshu.android.redditdonation",
+          "name": "rif is fun golden platinum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix comment video links",
+      "description": "Makes videos posted in comments play in rif's video player instead of failing with \"error retrieving Reddit video metadata\".",
+      "default": true,
+      "category": "Media",
+      "compatiblePackages": [
+        {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.andrewshu.android.redditdonation",
+          "name": "rif is fun golden platinum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix imgur album thumbnails",
+      "description": "Fixes imgur album thumbnails failing to load: rif fetched them through its own imgur proxy, which no longer exists.",
+      "default": true,
+      "category": "Media",
+      "compatiblePackages": [
+        {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.andrewshu.android.redditdonation",
+          "name": "rif is fun golden platinum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Fix imgur title links",
+      "description": "Fixes imgur album links that include the album title (imgur.com/a/some-title-AbC123) failing to load.",
+      "default": true,
+      "category": "Links",
+      "compatiblePackages": [
+        {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.andrewshu.android.redditdonation",
+          "name": "rif is fun golden platinum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -3037,6 +3334,51 @@
       "description": "Fix imgur albums not loading.",
       "default": true,
       "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.andrewshu.android.reddit",
+          "name": "rif is fun",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.andrewshu.android.redditdonation",
+          "name": "rif is fun golden platinum",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "5.6.22",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "YouTube player controls",
+      "description": "Double-tap to seek, hold for 2x speed, and speed and captions controls in the YouTube player.",
+      "default": true,
+      "category": "Media",
       "compatiblePackages": [
         {
           "packageName": "com.andrewshu.android.reddit",
