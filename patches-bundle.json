@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-30T22:21:29",
-  "description": "## [2.0.3](https://github.com/wchill/patcheddit/compare/v2.0.2...v2.0.3) (2026-10-30)\n\n\n### Bug Fixes\n\n* Comment loading and gallery loading for all reddit apps ([48cb357](https://github.com/wchill/patcheddit/commit/48cb357ca0bdcaaf7aa9f8a694db479e95a7c0ae))",
-  "download_url": "https://github.com/wchill/patcheddit/releases/download/v2.0.3/patches-2.0.3.mpp",
-  "signature_download_url": "https://github.com/wchill/patcheddit/releases/download/v2.0.3/patches-2.0.3.mpp.asc",
-  "version": "2.0.3"
+  "created_at": "2026-11-04T00:20:00",
+  "description": "## 2.0.4 — rif is fun patch port\n\nAdds the RIF 5.6.22 patches that only existed in the ReVanced repos:\n\n* Disable ads (free build)\n* Fix imgur album thumbnails, Fix imgur title links\n* Use public imgur API: now sends the imgur Client-ID header\n* Fix /s/ links (including the reddit.com/media unwrap)\n* Fix Redgifs API\n* Fix comment video links\n* Fix YouTube videos, YouTube player controls\n\nReddit gallery loading is covered by *Fix Reddit API lookups*; load-more-comments by *Fix loading more comments*.\n\nNot ported: Inline comment images.\n\nUnsigned build of `gerald-lnj/patcheddit` (no GPG key in this fork), sha256 `051ca28e50c40973316fe972903419be400944b6f3cdb728abaee7f561ca41de`.",
+  "download_url": "https://github.com/gerald-lnj/patcheddit/releases/download/v2.0.4/patches-2.0.4.mpp",
+  "signature_download_url": null,
+  "version": "2.0.4"
 }
